@@ -34,7 +34,8 @@ Smartwatch on ESP with comfortable setting up throught web interface in 3-rd ver
 
 - Install last release
 - Open esp_watch.ino file in arduino IDE 
-- Add libs to IDE 
+- Add libs to IDE
+- ESP core version 2.5.0
 - Flash
 
 ## Connecting_pins
