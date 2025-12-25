@@ -132,20 +132,20 @@ byte TD[8] =
 
 // ====================== GROUPING CHARS TO NUMBERS ======================
 void custom0(int x)
-{ // составим из блоков цифру 0
+{ 
 
-  lcd.setCursor(x,0); // курсор на 0 строку
-  lcd.write(0);  // и прописываем все блоки
-  lcd.write(2);  // которые есть в этой строке
-  lcd.write(1);  // у цифры 0
-  lcd.setCursor(x, 1); // курсор на 1 строку
-  lcd.write(0);  // и прописываем все блоки
-  lcd.write(3);  // которые есть в этой строке
-  lcd.write(1);  // у цифры 0
+  lcd.setCursor(x,0);
+  lcd.write(0); 
+  lcd.write(2);  
+  lcd.write(1);  
+  lcd.setCursor(x, 1); 
+  lcd.write(0);  
+  lcd.write(3);  
+  lcd.write(1); 
 }
 
 void custom1(int x)
-{ // составим из блоков цифру 1
+{ 
   lcd.setCursor(x,0);
   lcd.print(" ");
   lcd.print(" ");
@@ -157,7 +157,7 @@ void custom1(int x)
 }
 
 void custom2(int x)
-{ // составим из блоков цифру 2
+{ 
   lcd.setCursor(x,0);
   lcd.write(6);
   lcd.write(4);
@@ -169,7 +169,7 @@ void custom2(int x)
 }
 
 void custom3(int x)
-{ // составим из блоков цифру 3
+{ 
   lcd.setCursor(x,0);
   lcd.write(6);
   lcd.write(4);
@@ -181,7 +181,7 @@ void custom3(int x)
 }
 
 void custom4(int x)
-{ // составим из блоков цифру 4
+{ 
   lcd.setCursor(x,0);
   lcd.write(0);
   lcd.write(3);
@@ -193,7 +193,7 @@ void custom4(int x)
 }
 
 void custom5(int x)
-{ // составим из блоков цифру 5
+{ 
   lcd.setCursor(x,0);
   lcd.write(0);
   lcd.write(4);
@@ -205,7 +205,7 @@ void custom5(int x)
 }
 
 void custom6(int x)
-{ // составим из блоков цифру 6
+{ 
   lcd.setCursor(x,0);
   lcd.write(0);
   lcd.write(4);
@@ -217,7 +217,7 @@ void custom6(int x)
 }
 
 void custom7(int x)
-{ // составим из блоков цифру 7
+{ 
   lcd.setCursor(x,0);
   lcd.write(7);
   lcd.write(2);
@@ -229,7 +229,7 @@ void custom7(int x)
 }
 
 void custom8(int x)
-{ // составим из блоков цифру 8
+{ 
   lcd.setCursor(x,0);
   lcd.write(0);
   lcd.write(4);
@@ -241,7 +241,7 @@ void custom8(int x)
 }
 
 void custom9(int x)
-{ // составим из блоков цифру 9
+{ 
   lcd.setCursor(x,0);
   lcd.write(0);
   lcd.write(4);
@@ -470,3 +470,4 @@ void loop() {
 
   delay(500);
 }
+
